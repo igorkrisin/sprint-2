@@ -21,8 +21,26 @@
 @import url(./page/blocks/content/digits/table/__cell/table__cell.css);
 @import url(./page/blocks/content/digits/table/__heading/table__heading.css);
 @import url(./page/blocks/content/digits/table/__text/table__text.css);
+
 @import url(./page/blocks/content/feynman/feynman.css);
 @import url(./page/blocks/content/feynman/__title/feynman__title.css);
 @import url(./page/blocks/content/feynman/__subtitle/feynman__subtitle.css);
 @import url(./page/blocks/content/feynman/_link/feynman_link.css);
 @import url(./page/blocks/content/feynman/__circle/feynman__circle.css);
+
+@import url(./page/blocks/content/kaufman/kaufman.css);
+@import url(./page/blocks/content/kaufman/section-title/section-title.css);
+@import url(./page/blocks/content/kaufman/section-title/_theme_dark/section-title_theme_dark.css);
+@import url(./page/blocks/content/kaufman/section-subtitle/section-subtitle.css);
+@import url(./page/blocks/content/kaufman/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
+@import url(./page/blocks/content/kaufman/table/table.css);
+@import url(./page/blocks/content/kaufman/table/tabel__cell/table__cell.css);
+@import url(./page/blocks/content/kaufman/table/tabel__cell/__cell_theme_dark/table__cell_theme_dark.css);
+@import url(./page/blocks/content/kaufman/table/tabel__cell/table__heading/table__heading.css);
+@import url(./page/blocks/content/kaufman/table/tabel__cell/table__heading/_theme_dark/table__heading_theme_dark.css);
+@import url(./page/blocks/content/kaufman/table/tabel__cell/table__text/table__text.css);
+@import url(./page/blocks/content/kaufman/table/tabel__cell/table__text/__text_theme_dark/table__text_theme_dark.css);
+@import url(./page/blocks/content/kaufman/kaufman__triangle/kaufman__triangle.css);
+@import url(./page/blocks/content/kaufman/table/_theme_dark/table_theme_dark.css);
+
+
