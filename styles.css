@@ -14,3 +14,15 @@
 @import url(./page/blocks/content/discription/two-columns/__main-text/two-columns__main-text.css);
 @import url(./page/blocks/content/discription/two-columns/__main-text/__paragraph/two-columns__paragraph.css);
 @import url(./page/blocks/content/discription/two-columns/__main-text/__paragraph/__span-accent/two-columns__span-accent.css);
+@import url(./page/blocks/content/digits/digits.css);
+@import url(./page/blocks/content/digits/section-title/section-title.css);
+@import url(./page/blocks/content/digits/section-subtitle/section-subtitle.css);
+@import url(./page/blocks/content/digits/table/tabel.css);
+@import url(./page/blocks/content/digits/table/__cell/table__cell.css);
+@import url(./page/blocks/content/digits/table/__heading/table__heading.css);
+@import url(./page/blocks/content/digits/table/__text/table__text.css);
+@import url(./page/blocks/content/feynman/feynman.css);
+@import url(./page/blocks/content/feynman/__title/feynman__title.css);
+@import url(./page/blocks/content/feynman/__subtitle/feynman__subtitle.css);
+@import url(./page/blocks/content/feynman/_link/feynman_link.css);
+@import url(./page/blocks/content/feynman/__circle/feynman__circle.css);
