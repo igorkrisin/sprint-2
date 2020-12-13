@@ -48,7 +48,7 @@
 @import url(./page/blocks/content/feynman/feynman.css);
 @import url(./page/blocks/content/feynman/__title/feynman__title.css);
 @import url(./page/blocks/content/feynman/__subtitle/feynman__subtitle.css);
-@import url(./page/blocks/content/feynman/_link/feynman_link.css);
+@import url(./page/blocks/content/feynman/__link/feynman__link.css);
 @import url(./page/blocks/content/feynman/__circle/feynman__circle.css);
 
 @import url(./page/blocks/content/digits/digits.css);
@@ -80,6 +80,7 @@
 @import url(./page/blocks/content/kaufman/table/tabel__cell/table__text/__text_theme_dark/table__text_theme_dark.css);
 @import url(./page/blocks/content/kaufman/kaufman__triangle/kaufman__triangle.css);
 @import url(./page/blocks/content/kaufman/table/_theme_dark/table_theme_dark.css);
+
 @import url(./page/blocks/footer/footer.css);
 @import url(./page/blocks/footer/footer__columns/footer__columns.css);
 @import url(./page/blocks/footer/footer__columns/footer__column/footer__column.css);
@@ -89,7 +90,7 @@
 @import url(./page/blocks/footer/footer__columns/footer__column/footer__author/footer__author.css);
 @import url(./page/blocks/footer/footer__columns/footer__column/footer__column-links/footer__column-links.css);
 @import url(./page/blocks/footer/footer__columns/footer__column/footer__column-links/footer__column-link/footer__column-link.css);
-@import url(./page/blocks/footer/footer__columns/footer__column/footer__column-links/footer__social_icon/footer__social_icon.css);
+@import url(./page/blocks/footer/footer__columns/footer__column/footer__column-links/footer__social-icon/footer__social-icon.css);
 @import url(./page/blocks/rotation/rotation.css);
 
 @import url(./page/blocks/content/resources/resources.css);
