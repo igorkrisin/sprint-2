@@ -17,8 +17,6 @@
 @import url(./page/blocks/logo/_place_header/logo_place_header.css);
 @import url(./page/blocks/logo/_place_footer/logo_place_footer.css);
 
-
-
 @import url(./page/blocks/content/techniques/techniques.css);
 @import url(./page/blocks/section-title/section-title.css);
 @import url(./page/blocks/section-subtitle/section-subtitle.css);
@@ -37,13 +35,6 @@
 @import url(./page/blocks/content/oakley/two-columns/__brief/two-columns__brief.css);
 @import url(./page/blocks/content/oakley/two-columns/__main-text/two-columns__main-text.css);
 @import url(./page/blocks/content/oakley/two-columns/__paragraph/two-columns__paragraph.css);
-
-
-
-
-
-
-
 
 @import url(./page/blocks/content/feynman/feynman.css);
 @import url(./page/blocks/content/feynman/__title/feynman__title.css);
