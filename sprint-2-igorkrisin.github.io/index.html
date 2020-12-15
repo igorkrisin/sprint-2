@@ -28,10 +28,10 @@
         так же папки элементов не должны быть вложены в папки других элементов, например в папке `content` не должно быть 
         ничего кроме `content.css` или в папке `footer__columns` не должно быть ничего кроме `footer__columns.css`, имена 
         папок элементов не должны содержать в себе имена блоков этих элементов, т.е. элемент `footer__columns.css` должен 
-        находиться в папке `__columns`, папка `__columns` должна находиться в папке `footer`;
+        находиться в папке `__columns`, папка `__columns` должна находиться в папке `footer`(Исправил);
       - файлы сложных модификаторов должны находиться в одной общей папке, 
         например модификаторы `footer__column_content...` нужно разместить в одной папке `_content`, папка `_content` должна 
-        быть внутри папки `__column`, папка `__column` должна быть внутри папки `footer`;
+        быть внутри папки `__column`, папка `__column` должна быть внутри папки `footer` (Исправил);
       - в `css` файле элемента или блока должны быть описаны стили только этого элемента или блока, 
         например в файле `rotation.css` должны быть описаны только стили блока `rotation`(исправил);
 
@@ -118,15 +118,15 @@
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <!-- Можно лучше: Для подзаголовков принято использовать тег `p`  -->
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          <iframe class="video__iframe"  src="https://www.youtube.com/embed/arj7oStGLkU"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
-          <!-- Надо исправить: Атрибуты `width` и `height` нужно удалить, размеры должны быть описаны с помощью классов в стилевых файлах -->
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          <!-- Надо исправить (Исправил): Атрибуты `width` и `height` нужно удалить, размеры должны быть описаны с помощью классов в стилевых файлах -->
+          <iframe class="video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
         </div>
       </section>
         <section class="oakley">
-          <!-- Надо исправить: Отступ сверху не соответствует брифу  -->
+          <!-- Надо исправить: Отступ сверху не соответствует брифу (исправил)  -->
           <div class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
             <div class="two-columns__main-text">
@@ -137,13 +137,13 @@
            </div>
          </div>
         </section>
-      <div class="feynman">
+      <section class="feynman">
         <!-- Надо исправить: Нужно использовать тег `section`, так как это секция  -->
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и незыбыть.</h3>
         <img class="feynman__circle" src="./images/feynman.png" alt="Фейман">
         <a target="_blank" class="feynman__link" href="#">Подробнее &#8594;</a>
-      </div>
+      </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <h3 class="section-subtitle">Про учебу и мозг</h3>
@@ -193,9 +193,9 @@
           <!-- Надо исправить:(Исправил) Заголовки задают структуру документа, нехорошо когда заголовок третьего уровня находится перед заголовком второго уровня на одном уровне вложенности, для данного элемента я бы использовал тег `p`  -->
           <h2 class="khan__title">Весь мир — школа
           </h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
-          </p>
-          <!-- Надо исправить: Нехорошо - жестко ограничивать ширину текстовых элементов, в данном случае нужно использовать свойство `max-width` -->
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </blockquote>
+          <!-- Надо исправить: Нехорошо - жестко ограничивать ширину текстовых элементов, в данном случае нужно использовать свойство `max-width(ИСправил)` -->
           <!-- Можно лучше: Для длинный цитат можно использовать тег `blockquote`, подробнее: http://htmlbook.ru/html/blockquote -->
           <h4 class="khan__quote-author">Джордж Лукас
           </h4>
@@ -262,12 +262,12 @@
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения
         </h3>
         <div class="resources__logo-zone">
-          <img src="./images/resources-arzamas.svg" alt="Логотип компании Арзамас" class="resources__logo">
+          <a href="#" target="_blank"><img src="./images/resources-arzamas.svg" alt="Логотип компании Арзамас" class="resources__logo"></a>
           <!-- Надо исправить: 1. Логотипы должны быть ссылками, каждое изображение нужно дополнительно обернуть в тег `a`
                   2. Нужно добавить прозрачность при наведении курсора как у других ссылок -->
-          <img src="../images/resources-n1.svg" alt="Логотип компании N+1" class="resources__logo">
-          <img src="../images/resources-strelka.svg" alt="Логотип компани Стрелка" class="resources__logo">
-          <img src="../images/resources-polka.svg" alt="Логотип компании Полка" class="resources__logo">
+          <a href="#" target="_blank"><img src="../images/resources-n1.svg" alt="Логотип компании N+1" class="resources__logo"></a>
+          <a href="#" target="_blank"><img src="../images/resources-strelka.svg" alt="Логотип компани Стрелка" class="resources__logo"></a>
+            <a href="#" target="_blank"><img src="../images/resources-polka.svg" alt="Логотип компании Полка" class="resources__logo"></a>
         </div>
       </section>
     </main>

@@ -59,6 +59,8 @@
 @import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(../blocks/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
+@import url(../blocks/khan/__author/khan__author.css);
+
 
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/table/_theme_dark/table__cell_theme_dark.css);
