@@ -1,4 +1,4 @@
-@import url(./normalize.css);
+@import url(../normalize.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -68,6 +68,8 @@
 @import url(../blocks/table/_theme_dark/table__text_theme_dark.css);
 @import url(../blocks/table/_theme_dark/table_theme_dark.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/section-title/_theme_dark/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);

@@ -1,8 +1,0 @@
-.footer__columns {
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-    padding: 60px 0 40px 0;
-    box-sizing: border-box;
-    justify-content: space-between;
-  }
